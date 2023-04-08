@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  padding: 20px;
+}
+.sub-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 700;
+  color: #171f46;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+.input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  height: 45px;
+  width: 280px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.add-btn {
+  height: 35px;
+  width: 65px;
+  background-color: #8b5cf6;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.hr-line {
+  border: 1px solid #b5b7c4;
+}
+.appointment-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  color: #171f46;
+}
+.star-btn {
+  height: 30px;
+  width: 100px;
+  border: 1px solid #9897f0;
+  background-color: transparent;
+  border-radius: 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #9897f0;
+  outline: none;
+  cursor: pointer;
+}
+.image {
+  display: none;
+}
+.unorder-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -40px;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .image {
+    display: flex;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+  }
+  .form-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading {
+    font-size: 35px;
+    margin-bottom: 0px;
+  }
+  .sub-container {
+    padding: 40px;
+    width: 90%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .add-btn {
+    margin-bottom: 0px;
+  }
+  .input {
+    width: 350px;
+  }
+}
